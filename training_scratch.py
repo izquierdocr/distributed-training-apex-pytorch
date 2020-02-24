@@ -5,7 +5,10 @@ https://pytorch.org/tutorials/beginner/aws_distributed_training_tutorial.html
 
 https://github.com/znxlwm/pytorch-apex-experiment
 
+https://github.com/ceshine/apex_pytorch_cifar_experiment
 
+https://github.com/NVIDIA/apex
+ 
 
 Run with:
 
