@@ -1,10 +1,18 @@
 '''
+Partially taken from 
 
-python new_training_scratch.py --dataset mnist --path-data /media/hal/DATA/Datasets --train-batch 16 --test-batch 16 --epochs 2 --resume ./logs --save ./logs --arch vgg19 --distributed --nodes 2 -node-rank 0 --master-ip 192.168.1.2 --master-port 8888 --gpus 0
+https://pytorch.org/tutorials/beginner/aws_distributed_training_tutorial.html
+
+https://github.com/znxlwm/pytorch-apex-experiment
+
+
+
+Run with:
+
+python new_training_scratch.py --dataset mnist --path-data ./data --train-batch 16 --test-batch 16 --epochs 2 --resume ./logs --save ./logs --arch vgg19 --distributed --nodes 2 -node-rank 0 --master-ip 192.168.1.2 --master-port 8888 --gpus 0
 
 python new_training_scratch.py --dataset mnist --path-data ./data --train-batch 16 --test-batch 16 --epochs 2 --resume ./logs --save ./logs --arch vgg19 --distributed --nodes 2 -node-rank 1 --master-ip 192.168.1.2 --master-port 8888 --gpus 0
 
-/media/hal/DATA/Datasets/
 
 '''
 
